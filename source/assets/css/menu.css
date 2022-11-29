@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #57290b;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item ul {
+  display: flex;
+  flex-direction: wrap;
+  margin: auto 3rem;
+}
+
+#logo {
+  width: 2rem;
+}
+
+.logo::after {
+  margin: 5px auto;
+  display: block;
+  position: relative;
+  color: #b2784a;
+  top: 55px;
+  right: 110px;
+}
+
+#logo::after {
+  content: "Palavras Cafeinadas" !important;
+  display: block;
+  color: #b2784a;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ebdacc;
+  font-weight: 700;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+a li::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  text-align: center;
+  height: 0.1rem;
+  background-color: #b2784a;
+}
+
+.nav-numero {
+  display: flex;
+}

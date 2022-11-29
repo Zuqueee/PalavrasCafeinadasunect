@@ -1,0 +1,82 @@
+footer {
+  background-color: #57290b;
+}
+
+.rodape {
+  margin: auto 10rem;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #ebdacc;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.rodape h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ebdacc;
+}
+
+.contatos{
+  position: absolute;
+  width: 257px;
+  height: 230px;
+  left: 848px;
+  top: 2506px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #EBDACC;
+  margin: 2rem 0;
+  
+}
+.redes{
+  position: absolute;
+  width: 204px;
+  height: 140.57px;
+  left: 1480px;
+  top: 2506px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.direitos {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 10rem;
+  padding: 20px;
+}
+
+.direitos p {
+  padding: 50px;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ffdab8;
+}
+
+

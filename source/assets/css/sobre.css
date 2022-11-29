@@ -1,0 +1,129 @@
+.banner {
+  display: flex;
+  background-image: url("/source/assets/img/intro.png");
+  height: 559px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  margin: auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #ebdacc;
+}
+
+.quem-somos {
+  display: flex;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
+.quem-somos h1 {
+  font-size: 4rem;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: #1f0c00;
+  display: flex;
+}
+
+.quem-somos h1::after {
+  content: "";
+  display: inline-block;
+  width: 28rem;
+  height: 3rem;
+  margin-top: 2.5rem;
+  margin-left: -27rem;
+  z-index: -1;
+  background-color: #fbc9a8;
+}
+
+.quem-somos p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  color: #1f0c00;
+}
+
+#quem-somos-image {
+  border-radius: 50%;
+  width: 500px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.time {
+  background-color: #80451f;
+  height: 1100px;
+  display: block;
+}
+
+.card {
+  margin-right: 7rem;
+  margin-left: 7rem;
+  text-align: center;
+  display: flex;
+}
+
+.time h1 {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  z-index: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #f5f3ed;
+}
+
+.time h1::after {
+  content: "";
+  display: inline-block;
+  width: 15rem;
+  height: 0.5rem;
+  margin-top: 3rem;
+  margin-left: -15rem;
+  background-color: #fbc9a8;
+}
+
+.card {
+  background-color: #f5f3ed;
+  border-radius: 1rem;
+  margin-bottom: 50px;
+}
+
+.perfil {
+  text-align: start;
+  padding-left: 10px;
+}
+
+.perfil h3 {
+  color: #1f0c00;
+  font-size: 1.5rem;
+}
+.perfil p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #1f0c00;
+}
+
+.img-perfil {
+  border-radius: 50%;
+}
